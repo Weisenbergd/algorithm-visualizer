@@ -5,5 +5,8 @@ export function generateArray(size: number, arrayType: string = "number") {
       array.push(Math.floor(Math.random() * 101));
     }
   }
+
+  console.log("ge", array);
+
   return array;
 }
